@@ -1,0 +1,16 @@
+{
+  "promptDelete": false,
+  "spellcheck": true,
+  "spellcheckLanguages": null,
+  "newFileLocation": "current",
+  "autoConvertHtml": true,
+  "focusNewTab": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "alwaysUpdateLinks": true
+}
