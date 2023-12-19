@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ba5214fec664008c",
+        "id": "3c9f069cbb6b4ced",
         "type": "tabs",
         "children": [
           {
-            "id": "da4a789c1a224774",
+            "id": "56025dcefd16eedb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/4 用户身份与文件权限.md",
+                "file": "Linux/5 存储结构与管理硬盘.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/4 用户身份与文件权限.md",
+                "file": "Linux/5 存储结构与管理硬盘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/4 用户身份与文件权限.md",
+                "file": "Linux/5 存储结构与管理硬盘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/4 用户身份与文件权限.md"
+                "file": "Linux/5 存储结构与管理硬盘.md"
               }
             }
           },
@@ -168,20 +168,21 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "da4a789c1a224774",
+  "active": "56025dcefd16eedb",
   "lastOpenFiles": [
-    "git/git基础.md",
-    "Linux/4 用户身份与文件权限.md",
-    "Linux/5 存储结构与管理硬盘.md",
     "数学建模/插值与拟合.md",
+    "Linux/5 存储结构与管理硬盘.md",
+    "Pasted image 20231219155831.png",
+    "Linux/4 用户身份与文件权限.md",
+    "数学建模/Pyton基础.md",
+    "Linux/6 使用RAID与LVM磁盘阵列技术.md",
+    "git/git基础.md",
     "利用Python进行数据分析/Numpy基础.md",
     "Linux/2 Vim编辑器与Shell命令脚本.md",
     "Linux/1 Linux常用命令.md",
-    "数学建模/Pyton基础.md",
     "利用Python进行数据分析",
     "深入理解计算机系统",
     "计算机组成与设计：硬件、软件接口",
-    "Linux/6 使用RAID与LVM磁盘阵列技术.md",
     "Linux/3 管道符、重定向和环境变量.md",
     "马克思主义基本原理.md",
     "数学建模/博弈论.md",
@@ -199,7 +200,6 @@
     "HTML&CSS/3 盒子模型.md",
     "HTML&CSS/0 介绍.md",
     "HTML&CSS/2 CSS基本语法.md",
-    "HTML&CSS/1 HTML基本语法.md",
     "会计学原理/pictures/6.8.png",
     "会计学原理/pictures/6.7.png",
     "会计学原理/pictures/6.6.png",
@@ -209,7 +209,6 @@
     "会计学原理/pictures/6.4.png",
     "会计学原理/pictures/6.3.png",
     "会计学原理/pictures/6.2.png",
-    "会计学原理/pictures/9.1 1.png",
     "会计学原理/pictures",
     "未命名 1.canvas",
     "会计学原理",
