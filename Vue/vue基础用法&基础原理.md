@@ -1,4 +1,4 @@
-﻿﻿﻿﻿# vue基础用法&基础原理整理
+﻿﻿﻿# vue基础用法&基础原理整理
 
 # 1. vue基础知识和原理
 
@@ -2520,7 +2520,7 @@ new Vue({
 
 Vue 实例有⼀个完整的⽣命周期，也就是从new Vue()、初始化事件(.once事件)和生命周期、编译模版、挂载Dom -> 渲染、更新 -> 渲染、卸载 等⼀系列过程，称这是Vue的⽣命周期。 
 
-先来一张尚硅谷的图：
+先来一张图：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/e4a8169c832443f2a78c6a1ae42a87b3.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5qC86Zu354uQ5oCd,size_20,color_FFFFFF,t_70,g_se,x_16)
 
