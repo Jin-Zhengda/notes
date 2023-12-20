@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/4 用户身份与文件权限.md",
+                "file": "Linux/5 存储结构与管理硬盘.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "100b0fc3f7531fee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/1 Linux常用命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d5196f9c10db851f",
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/4 用户身份与文件权限.md",
+                "file": "Linux/5 存储结构与管理硬盘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/4 用户身份与文件权限.md",
+                "file": "Linux/5 存储结构与管理硬盘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/4 用户身份与文件权限.md"
+                "file": "Linux/5 存储结构与管理硬盘.md"
               }
             }
           },
@@ -169,13 +182,14 @@
   },
   "active": "56025dcefd16eedb",
   "lastOpenFiles": [
-    "Linux/3 管道符、重定向和环境变量.md",
-    "Linux/2 Vim编辑器与Shell命令脚本.md",
     "Linux/1 Linux常用命令.md",
     "Linux/5 存储结构与管理硬盘.md",
+    "会计学原理/Chapter 2.md",
+    "Linux/4 用户身份与文件权限.md",
+    "Linux/2 Vim编辑器与Shell命令脚本.md",
+    "Linux/3 管道符、重定向和环境变量.md",
     "数学建模/插值与拟合.md",
     "Pasted image 20231219155831.png",
-    "Linux/4 用户身份与文件权限.md",
     "数学建模/Pyton基础.md",
     "Linux/6 使用RAID与LVM磁盘阵列技术.md",
     "git/git基础.md",
@@ -185,7 +199,6 @@
     "计算机组成与设计：硬件、软件接口",
     "马克思主义基本原理.md",
     "数学建模/博弈论.md",
-    "会计学原理/Chapter 2.md",
     "未命名.canvas",
     "会计学原理/Chapter 9.md",
     "会计学原理/Chapter 8.md",
