@@ -3,5 +3,7 @@
   "theme": "moonstone",
   "baseFontSize": 16,
   "cssTheme": "",
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "translucency": false,
+  "nativeMenus": false
 }
