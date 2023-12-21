@@ -84,3 +84,57 @@ mdadm --stop /dev/md0
 ```Shell
 mdadm --remove /dev/md0
 ```
+
+
+
+## 逻辑卷管理器（LVM）
+LVM 是用于对硬盘分区进行管理的一种机制，其创建初衷是为了解决硬盘设备在创建分区后不易修改分区大小的缺陷。
+LVM 技术是在硬盘分区和文件系统之间添加了一个逻辑层，它提供了一个抽象的卷组，可以把多块硬盘进行卷组合并。 用户不必关心物理硬盘设备的底层架构和布局，就可以实现对硬盘分区的动态调 整。
+物理卷处于 LVM 中的最底层，一般是物理硬盘、硬盘分区或者 RAID 磁盘阵列。 卷组建立在物理卷之上，一个卷组能够包含多个物理卷，而且在卷组创建之后也可以继续向其中添加新的物理卷。逻辑卷是用卷组中空闲的资源建立的，并且逻辑卷在建立后可以动态地扩展或缩小空间。
+
+常用 LVM 管理命令：
+
+|功能|物理卷管理|卷组管理|逻辑卷管理|
+|:---:|:---:|:---:|:---:|
+|扫描|pvscan|vgscan|lvscan|
+|建立|pvcreate|vgcreate|lvcreate|
+|显示|pvdisplay|vgdisplay|lvdisplay|
+|删除|pvremove|vgremove|lvremove|
+|扩展||vgextend|lvextend|
+|缩小||vgreduce|lvreduce|
+
+### 部署逻辑卷
+新添加两块硬盘设备后，
+- 首先让新添加的两块硬盘支持 LVM 技术：
+```Shell
+pvcreate /dev/sdb /dev/sdc
+```
+- 接着将两块硬盘设备加入到 storage 卷组中，并查看卷组情况：
+```Shell
+vgcreate storage /dev/sdb /dev/sdc
+
+vgdisplay
+```
+- 然后切割出一个 150MB 的逻辑卷设备，并查看逻辑卷情况：
+```Shell
+lvcreate -n vo -l 37 storage
+
+lvdisplay
+```
+`lvcreate` 命令使用 `-L` 参数以容量切割，使用 `-l` 参数以基本单元个数切割，每个基本单元默认大小为 4MB。`-n` 参数设置了逻辑卷设备的名称。
+- 然后将生成的逻辑卷进行格式化，再挂载使用。
+Linux 系统会把 LVM 中的逻辑卷设备存放在 /dev 设备目录中， 同时会以卷组的名称来建立一个目录，其中保存了逻辑卷的设备映射文件（即 /dev/卷组名称/ 逻辑卷名称）。
+```Shell
+mkfs.ext4 /dev/storage/vo
+
+mount /dev/storage/vo /linuxprobe
+```
+若使用了逻辑卷管理器，则不建议用 XFS 文件系统，因为 XFS 文件系统自身可以使用 `xfs_growfs` 命令进行磁盘扩容。
+- 最后查看挂载状态，并写入 /etc/fstab 配置文件，使其永久生效。
+
+### 扩容逻辑卷
+
+
+
+
+
