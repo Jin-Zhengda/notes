@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/6 使用 RAID 与 LVM 磁盘阵列技术.md",
+                "file": "Linux/7 使用 iptables 和 firewalld 防火墙.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/6 使用 RAID 与 LVM 磁盘阵列技术.md",
+                "file": "Linux/7 使用 iptables 和 firewalld 防火墙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/6 使用 RAID 与 LVM 磁盘阵列技术.md",
+                "file": "Linux/7 使用 iptables 和 firewalld 防火墙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/6 使用 RAID 与 LVM 磁盘阵列技术.md"
+                "file": "Linux/7 使用 iptables 和 firewalld 防火墙.md"
               }
             }
           },
@@ -182,26 +182,27 @@
   },
   "active": "9fdadc3756d8e7eb",
   "lastOpenFiles": [
-    "Linux/5 存储结构与管理硬盘.md",
-    "Linux/6 使用 RAID 与 LVM 磁盘阵列技术.md",
-    "Linux/7 使用 iptables 和 firewalld 防火墙.md",
-    "HTML&CSS/1 HTML基本语法.md",
-    "Linux/3 管道符、重定向和环境变量.md",
-    "Linux/1 Linux 常用命令.md",
-    "Linux/2 Vim 编辑器与 Shell 命令脚本.md",
-    "Linux/19 使用 LNMP 架构部署动态网站环境.md",
+    "Linux/11 使用 Samba 或 NFS 实现文件共享.md",
     "Linux/18 使用 PEX + Kickstart 无人值守安装服务.md",
     "Linux/17 使用 MariaDB 数据库管理系统.md",
-    "Linux/16 使用 iSCSI 服务部署网站存储.md",
     "Linux/15 使用 Ansible 服务实现自动化运维.md",
     "Linux/14 使用 Postfix 与 Dovecot 部署邮件系统.md",
-    "Linux/13 使用 DHCP 动态管理主机地址.md",
     "Linux/12 使用 BIND 提供域名解析服务.md",
-    "Linux/11 使用 Samba 或 NFS 实现文件共享.md",
     "Linux/10 使用 vsftpd 服务传输文件.md",
     "Linux/8 使用 ssh 服务管理远程主机.md",
-    "Linux/9 使用 Apache 服务步数静态网站.md",
+    "Linux/7 使用 iptables 和 firewalld 防火墙.md",
+    "Linux/19 使用 LNMP 架构部署动态网站环境.md",
+    "Linux/6 使用 RAID 与 LVM 磁盘阵列技术.md",
+    "Linux/5 存储结构与管理硬盘.md",
+    "计算机组成与设计：硬件、软件接口/1 计算机抽象与相关技术.md",
+    "Linux/1 Linux 常用命令.md",
+    "Linux/2 Vim 编辑器与 Shell 命令脚本.md",
+    "Linux/3 管道符、重定向和环境变量.md",
     "Linux/4 用户身份与文件权限.md",
+    "HTML&CSS/1 HTML基本语法.md",
+    "Linux/16 使用 iSCSI 服务部署网站存储.md",
+    "Linux/13 使用 DHCP 动态管理主机地址.md",
+    "Linux/9 使用 Apache 服务步数静态网站.md",
     "会计学原理/Chapter 2.md",
     "数学建模/插值与拟合.md",
     "Pasted image 20231219155831.png",
@@ -211,7 +212,6 @@
     "利用Python进行数据分析",
     "深入理解计算机系统",
     "计算机组成与设计：硬件、软件接口",
-    "马克思主义基本原理.md",
     "未命名.canvas",
     "会计学原理/pictures/6.8.png",
     "会计学原理/pictures/6.7.png",
