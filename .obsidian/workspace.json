@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d5196f9c10db851f",
@@ -183,8 +182,12 @@
   "active": "a179bb3014ae4c2c",
   "lastOpenFiles": [
     "Linux/8 使用 ssh 服务管理远程主机.md",
-    "Linux/9 使用 Apache 服务部署静态网站.md",
+    "Linux/7 使用 iptables 和 firewalld 防火墙.md",
+    "Linux/6 使用 RAID 与 LVM 磁盘阵列技术.md",
+    "Linux/5 存储结构与管理硬盘.md",
+    "Linux/4 用户身份与文件权限.md",
     "Linux/3 管道符、重定向和环境变量.md",
+    "Linux/9 使用 Apache 服务部署静态网站.md",
     "Linux/1 Linux 常用命令.md",
     "Linux/19 使用 LNMP 架构部署动态网站环境.md",
     "Linux/18 使用 PEX + Kickstart 无人值守安装服务.md",
@@ -195,15 +198,11 @@
     "Linux/12 使用 BIND 提供域名解析服务.md",
     "Linux/11 使用 Samba 或 NFS 实现文件共享.md",
     "Linux/10 使用 vsftpd 服务传输文件.md",
-    "Linux/7 使用 iptables 和 firewalld 防火墙.md",
     "git/git基础.md",
     "计算机组成与设计：硬件、软件接口/2 指令.md",
     "计算机组成与设计：硬件、软件接口/1 计算机抽象与相关技术.md",
-    "Linux/5 存储结构与管理硬盘.md",
     "Linux/2 Vim 编辑器与 Shell 命令脚本.md",
     "Vue/Vue.md",
-    "Linux/4 用户身份与文件权限.md",
-    "Linux/6 使用 RAID 与 LVM 磁盘阵列技术.md",
     "Linux/16 使用 iSCSI 服务部署网站存储.md",
     "HTML&CSS/1 HTML基本语法.md",
     "会计学原理/Chapter 2.md",
