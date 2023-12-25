@@ -13,18 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/8 使用 ssh 服务管理远程主机.md",
+                "file": "Linux/9 使用 Apache 服务部署静态网站.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fefe96205b7ca6b7",
+            "id": "73f569b52159d65b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Linux/8 使用 ssh 服务管理远程主机.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -103,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/8 使用 ssh 服务管理远程主机.md",
+                "file": "Linux/9 使用 Apache 服务部署静态网站.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/8 使用 ssh 服务管理远程主机.md",
+                "file": "Linux/9 使用 Apache 服务部署静态网站.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/8 使用 ssh 服务管理远程主机.md"
+                "file": "Linux/9 使用 Apache 服务部署静态网站.md"
               }
             }
           },
@@ -178,8 +182,10 @@
   },
   "active": "a179bb3014ae4c2c",
   "lastOpenFiles": [
-    "Linux/9 使用 Apache 服务部署静态网站.md",
     "Linux/8 使用 ssh 服务管理远程主机.md",
+    "Linux/9 使用 Apache 服务部署静态网站.md",
+    "Linux/3 管道符、重定向和环境变量.md",
+    "Linux/1 Linux 常用命令.md",
     "Linux/19 使用 LNMP 架构部署动态网站环境.md",
     "Linux/18 使用 PEX + Kickstart 无人值守安装服务.md",
     "Linux/17 使用 MariaDB 数据库管理系统.md",
@@ -194,13 +200,11 @@
     "计算机组成与设计：硬件、软件接口/2 指令.md",
     "计算机组成与设计：硬件、软件接口/1 计算机抽象与相关技术.md",
     "Linux/5 存储结构与管理硬盘.md",
-    "Linux/3 管道符、重定向和环境变量.md",
     "Linux/2 Vim 编辑器与 Shell 命令脚本.md",
     "Vue/Vue.md",
     "Linux/4 用户身份与文件权限.md",
     "Linux/6 使用 RAID 与 LVM 磁盘阵列技术.md",
     "Linux/16 使用 iSCSI 服务部署网站存储.md",
-    "Linux/1 Linux 常用命令.md",
     "HTML&CSS/1 HTML基本语法.md",
     "会计学原理/Chapter 2.md",
     "数学建模/插值与拟合.md",
