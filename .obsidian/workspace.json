@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a179bb3014ae4c2c",
+            "id": "b86d29c66c6f69e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/10 使用 vsftpd 服务传输文件.md",
+                "file": "Linux/11 使用 Samba 或 NFS 实现文件共享.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d5196f9c10db851f",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/10 使用 vsftpd 服务传输文件.md",
+                "file": "Linux/11 使用 Samba 或 NFS 实现文件共享.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/10 使用 vsftpd 服务传输文件.md",
+                "file": "Linux/11 使用 Samba 或 NFS 实现文件共享.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/10 使用 vsftpd 服务传输文件.md"
+                "file": "Linux/11 使用 Samba 或 NFS 实现文件共享.md"
               }
             }
           },
@@ -145,7 +144,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -168,19 +169,25 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "a179bb3014ae4c2c",
+  "active": "b86d29c66c6f69e8",
   "lastOpenFiles": [
-    "Linux/9 使用 Apache 服务部署静态网站.md",
+    "会计学原理/Chapter 8.md",
+    "会计学原理/Chapter 5.md",
+    "会计学原理/Chapter 6.md",
+    "会计学原理/Chapter 9.md",
+    "会计学原理/Chapter 4.md",
+    "会计学原理/Chapter 1.md",
+    "Linux/11 使用 Samba 或 NFS 实现文件共享.md",
+    "Linux/12 使用 BIND 提供域名解析服务.md",
+    "Linux/13 使用 DHCP 动态管理主机地址.md",
     "Linux/10 使用 vsftpd 服务传输文件.md",
+    "Linux/9 使用 Apache 服务部署静态网站.md",
     "Linux/19 使用 LNMP 架构部署动态网站环境.md",
     "Linux/18 使用 PEX + Kickstart 无人值守安装服务.md",
     "Linux/17 使用 MariaDB 数据库管理系统.md",
     "Linux/16 使用 iSCSI 服务部署网站存储.md",
     "Linux/15 使用 Ansible 服务实现自动化运维.md",
     "Linux/14 使用 Postfix 与 Dovecot 部署邮件系统.md",
-    "Linux/13 使用 DHCP 动态管理主机地址.md",
-    "Linux/12 使用 BIND 提供域名解析服务.md",
-    "Linux/11 使用 Samba 或 NFS 实现文件共享.md",
     "Linux/8 使用 ssh 服务管理远程主机.md",
     "Linux/7 使用 iptables 和 firewalld 防火墙.md",
     "Linux/6 使用 RAID 与 LVM 磁盘阵列技术.md",
@@ -190,12 +197,6 @@
     "Linux/2 Vim 编辑器与 Shell 命令脚本.md",
     "Linux/1 Linux 常用命令.md",
     "git/git基础.md",
-    "计算机组成与设计：硬件、软件接口/2 指令.md",
-    "计算机组成与设计：硬件、软件接口/1 计算机抽象与相关技术.md",
-    "Vue/Vue.md",
-    "HTML&CSS/1 HTML基本语法.md",
-    "会计学原理/Chapter 2.md",
-    "数学建模/插值与拟合.md",
     "Pasted image 20231219155831.png",
     "利用Python进行数据分析",
     "深入理解计算机系统",
