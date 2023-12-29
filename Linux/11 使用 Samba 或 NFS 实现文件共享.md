@@ -39,7 +39,7 @@ Samba 服务是 Linux 系统与 Windows 系统之间共享文件的程序。
 - `domain`：代表通过域控制器进行身份验证，用来限制用户的来源域。
 - `server`：代表使用独立主机验证来访用户提供的密码，相当于集中管理账号。
 
-### 配置共享资源
+### 配置 Samba 服务
 Samba 服务程序的主配置文件包括全局配置参数和区域配置参数。
 全局配置参数用于设置整体的资源共享环境，区域配置参数则用于设置单独的共享资源，且仅对该资源有效。
 
@@ -219,4 +219,34 @@ vim /etc/fstab
 192.168.10.10:/nfsfile /nfsfile nfs defaults 0 0
 ```
 
-### autofs 自动挂载服务
+## autofs 自动挂载服务
+autofs 服务程序是一 种 Linux 系统守护进程，当检测到用户试图访问一个尚未挂载的文件系统时，将自动挂载该文件系统。
+将挂载信息填入/etc/fstab 文件后，系统在每次开机时都自动将其挂载， 而 autofs 服务程序则是在用户需要使用该文件系统时才去动态挂载，从而节约了网络资源和服务器的硬件资源。
+
+在 autofs 服务程序的主配置文件中需要按照`挂载目录 子配置文件`的格式填写需要挂载的文件：
+```Shell
+vim /etc/auto.master
+
+/media /etc/iso.misc
+```
+挂载目录是设备挂载位置的上一级目录。对应的子配置文件则是对这个挂载目录内的挂载设备信息作进一步的说明，子配置文件需要用户自行定义， 文件名字没有严格要求，但后缀建议以.misc 结束。
+在子配置文件中，应按照 `挂载目录 挂载文件类型及权限 :设备名称` 的格式进行填写：
+```Shell
+vim /etc/iso.misc
+
+iso -fstype=iso9660,ro,nosuid,nodev :/dev/cdrom
+```
+上述代码表明要将光盘设备挂载到 /media/iso 目录中，`-fstype` 为文件系统格式参数，`iso9660` 为光盘设备格式，`ro`、`nosuid` 及 `nodev` 为光盘设备具体的权限参数，/dev/cdrom 则是定义要挂载的设备名称。
+再将 autofs 服务程序启动并加入到系统启动项中：
+```Shell
+systemctl start autofs
+
+systemctl enable autofs
+```
+
+例如，配置自动挂载 NFS 服务：
+```Shell
+vim /etc/auto.misc
+
+nfsfile 192.168.10.10:/nfsfile
+```
