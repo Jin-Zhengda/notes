@@ -4,7 +4,7 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-annotator",
   "obsidian-style-settings",
-  "typst",
   "code-emitter",
-  "obsidian-git"
+  "obsidian-git",
+  "quick-latex"
 ]
